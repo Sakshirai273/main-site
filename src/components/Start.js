@@ -1,10 +1,12 @@
 import React from "react";
 import { Parallax} from "react-parallax"
-import Img from "./img/bg-1.jpg"
+import Img from "./img/bg.jpg"
+import Navbar from "./Navbar";
 
 const Start = () => {
     return (
-        <Parallax bgImage={Img} strength={100}>
+        <Parallax bgImage={Img} strength={200} blur={1.5}>
+            <Navbar />
             <div id="section1">
                 <header id="header-area" class="intro-section">
                     <div class="container">

@@ -393,19 +393,20 @@ input {
 /*************navigation******************/
 
  .navbar-inverse {
-    background-color: #383E4C;
-    border-color: #383E4C;
+    margin-top: 20px;
+    background-color: transparent;
+    border-color: transparent;
 }
 .navbar-nav>li {
     display: inline-block;
     padding: 10px;
 }
 .navbar-inverse .navbar-nav>li>a {
-    background: #383E4C none repeat scroll 0 0;
-    border: 1px solid #646d7c;
+    background: transparent;
+    /* border: 1px solid transparent; */
     color: #fff ;
     font-size: 20px;
-    padding: 15px 25px;
+    padding: 5px 5px;
     text-decoration: none;
     text-transform: capitalize;
     -webkit-transition: all 0.3s ease;
@@ -414,15 +415,17 @@ input {
 
 .navbar-inverse .navbar-nav > li > a.current,
 .navbar-inverse .navbar-nav > li > a:hover {
-        background: #49505F;
+        /* background: #d0ee64; */
+        color: #aee41a;
+        cursor: pointer;
 }
 .navbar .navbar-nav {
     display: inline-block;
-    float: none;
+    float: right;
 }
 
 .navbar .navbar-collapse {
-    text-align: center;
+    text-align: end;
 }
 
 /* Media Queries
