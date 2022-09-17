@@ -1,5 +1,7 @@
 import React from "react";
 import {Link} from "react-scroll"
+// import Weather from "./WeatherCard";
+// import {Link} from "react-router-dom"
 
 const Navbar = () => {
     return(
@@ -18,7 +20,7 @@ const Navbar = () => {
 					<li><Link to="section2" spy={true} smooth={true} offset={-100} duration={800}>About Us</Link></li>
 					<li><Link to="section3" spy={true} smooth={true} offset={-100} duration={900}>Services</Link></li>
 					<li><Link to="section4" spy={true} smooth={true} offset={-100} duration={900}>Contact</Link></li>
-					<li><a href="http://localhost:3000/">External</a></li>
+					<li><Link to="WeatherCard">External</Link></li>
 				</ul>
 			</div>
 		</div>

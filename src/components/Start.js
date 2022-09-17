@@ -11,8 +11,8 @@ const Start = () => {
                         <div class="row">
                             <div class="col-sm-12 text-center">
                                 <div class="header-content">
-                                    <h1>CONQUER</h1>
-                                    <h4>Simple Bootstrap Template</h4>
+                                    <h1>RAHIII</h1>
+                                    <h4>only guide has the asnwer!!</h4>
                                 </div>
                             </div>
                         </div>
