@@ -30,7 +30,9 @@ const Navbar = () => {
 						<li><a href="/weather">weather</a></li>
 						<li><a href="/rating">Rating</a></li>
 						<li><a href="/destination">Destination</a></li>
-						<li><Dropdown>
+						<li><a href="/rahiii">Rahiii</a></li>
+
+						{/* <li><Dropdown>
 							<Dropdown.Toggle className="navDrop">
 								<div className="navDropBtn">Rahii</div>
 							</Dropdown.Toggle>
@@ -41,7 +43,7 @@ const Navbar = () => {
 								<Dropdown.Item href="#/action-3">Rampur</Dropdown.Item>
 							</Dropdown.Menu>
 						</Dropdown>
-						</li>
+						</li> */}
 					</ul>
 				</div>
 			</div>
