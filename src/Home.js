@@ -26,7 +26,6 @@ const Home = () => {
         <Testimonial />
       </div>
       <ContactForm />
-      <City/>
       {/* <Rating/> */}
       {/* <Blog/> */}
     </div>
