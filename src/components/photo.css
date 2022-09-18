@@ -17,3 +17,11 @@
      font-size: large;
     /* font-family: cursive;  */
 }
+.sp{
+    font-size: larger;
+    font-weight: 400;
+}
+.ra{
+   color: rgb(102, 30, 30);
+
+}

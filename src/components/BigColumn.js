@@ -11,10 +11,10 @@ const BigColumn = () => {
 								<h2>Our Vision</h2>
 								<p class="tm-box-p">
 									<ul className="name">
-										<li className="yash">VR :- We will use vr to make our users friendly to any place without physically being there.</li><br></br>
-										<li className="yash">Bookmark :- To save experiences of credible users and adding things to wishlist.</li><br></br>
+										<li className="yash"><p><span className="sp">VR </span>:- We will use vr to make our users friendly to any place without physically being there.</p></li><br></br>
+										<li className="yash"><p> <span className="sp">Bookmark</span> :- To save experiences of credible users and adding things to wishlist.</p></li><br></br>
 										{/* <li className="yash">Rating System</li><br></br> */}
-										<li className="yash">Accommodation</li><br></br>
+										<li className="yash"><p><span className="sp">Accommodation</span> :- In future along with guide and vehicle we will be there with living accomodation too.</p></li><br></br>
 										{/* <li className="yash">Ar Vr</li><br></br> */}
 
 									</ul>
