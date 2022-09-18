@@ -29,7 +29,7 @@ const Navbar = () => {
 						<li><Link to="section4" spy={true} smooth={true} offset={-100} duration={900}>Contact</Link></li> */}
 						<li><a href="/weather">weather</a></li>
 						<li><a href="/rating">Rating</a></li>
-						<li><a href="/destination">Destination</a></li>
+						<li><a href="/city">City</a></li>
 						<li><a href="/rahiii">Rahiii</a></li>
 
 						{/* <li><Dropdown>

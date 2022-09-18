@@ -7,6 +7,7 @@ import LoginPage from "./LoginPage/LoginPage";
 import Blog from "./components/Delhi";
 import Rating from "./components/Rating";
 import Destination from "./components/destination";
+import City from "./components/City";
 const App = () => {
   return(
     <div>
@@ -26,6 +27,7 @@ const App = () => {
       <Route path="/weather" element={<Weather/>}/>
       <Route path="/rating" element={<Rating/>}/>
       <Route path="/rahiii" element={<Blog/>}/>
+      <Route path="/city" element={<City/>}/>
       <Route path="/destination" element={<Destination/>}/>
       {/* <Weather/> */}
       </Routes>
