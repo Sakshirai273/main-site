@@ -20,10 +20,6 @@ const Blog = () => {
         <BasicExample/>
         <BasicExample/>
         </div>
-        <div className="randw">
-        <Weather/>
-        <Rating/>
-        </div>
         
         </div>
     )
