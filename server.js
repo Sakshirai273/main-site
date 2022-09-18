@@ -48,5 +48,5 @@ app.get('/data', function(req, res) {
 
 //start your server on port 3001
 app.listen(8001, () => {
-  console.log('Server Listening on port 3001');
+  console.log('Server Listening on port 8001');
 });
