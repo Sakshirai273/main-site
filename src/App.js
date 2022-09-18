@@ -1,8 +1,9 @@
 import React from "react";
 import Weather from "./components/WeatherCard";
+// import Login from "./components/Login";
 import Home from "./Home";
 import {Route, Routes} from "react-router-dom"
-// import Login from "./components/Login";
+import LoginPage from "./LoginPage/LoginPage";
 
 const App = () => {
   return(
@@ -18,8 +19,8 @@ const App = () => {
       <ContactForm/>  */}
       {/* ************************************************* */}
       <Routes>
-      {/* <Route path="/" element={<Login/>}/> */}
-      <Route path="/" element={<Home/>}/>
+      <Route path="/" element={<LoginPage/>}/>
+      <Route path="/home" element={<Home/>}/>
       <Route path="/weather" element={<Weather/>}/>
       {/* <Weather/> */}
       </Routes>
