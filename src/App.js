@@ -7,8 +7,10 @@ import React from "react";
 // import Testimonial from "./components/Testimonial";
 // import ContactForm from "./components/ContactForm";
 import Weather from "./components/WeatherCard";
+// import Login from "./components/Login";
 import Home from "./Home";
 import {Route, Routes} from "react-router-dom"
+import LoginPage from "./LoginPage/LoginPage";
 
 const App = () => {
   return(
@@ -23,7 +25,8 @@ const App = () => {
       </div>
       <ContactForm/>  */}
       <Routes>
-      <Route path="/" element={<Home/>}/>
+      <Route path="/" element={<LoginPage/>}/>
+      <Route path="/home" element={<Home/>}/>
       <Route path="/weather" element={<Weather/>}/>
       {/* <Weather/> */}
       </Routes>
