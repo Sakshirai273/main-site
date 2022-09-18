@@ -65,6 +65,8 @@ const Weather = () => {
     }, [tdata])
 
     return (
+        <div>
+            <h1 className="check">Check Weather</h1>
         <div className="wcard">
             <div className="fromWeather">
                 <h2 className="from">From</h2>
@@ -100,6 +102,7 @@ const Weather = () => {
                     </CardBody>
                 </Card>
             </div>
+        </div>
         </div>
     )
 }

@@ -12,9 +12,9 @@
 }
 
 .borderrate{
-    margin:auto;
-    border: 1px solid rgb(230, 74, 196);
-    width: 40vw;
+    /* float: right; */
+    /* border: 1px solid rgb(230, 74, 196); */
+    /* width: 40vw; */
     border-radius: 20px;
 }
 .guide{

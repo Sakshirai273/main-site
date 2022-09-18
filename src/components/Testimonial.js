@@ -7,7 +7,7 @@ const Testimonial = () => {
     const[details, setDetails] = useState([]);
     const apiCall = async () => {
         console.log("hello");
-        const {data} = await Axios.get("http://localhost:5050/api");
+        const {data} = await Axios.get("http://localhost:8001/api");
         // const list = data.map((d) => console.log(d));
         setDetails(data);
     }
