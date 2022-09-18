@@ -3,6 +3,7 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
+const fs=require('fs');
 
 //use cors to allow cross origin resource sharing
 app.use(
@@ -12,7 +13,11 @@ app.use(
   })
 );
 
-
+app.get('/api',(req,res)=>{
+  const data = fs.readFileSync(`${__dirname}/server/userApi/userApi.json`, "utf-8");
+  const orgdata = JSON.parse(data);
+  res.send(orgdata);
+});
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
@@ -22,17 +27,17 @@ let books = [];
 
 app.post('/create', function(req, res) {
   const newBook = {
-    BookID: req.body.name,
-    Title: req.body.email,
-    Author: req.body.subject,
-    message: req.body.message,
+    Name: req.body.name,
+    Email: req.body.email,
+    Subject: req.body.subject,
+    Message: req.body.message,
   };
 
   books.push(newBook);
   console.log(books);
 });
 
-app.get('/home', function(req, res) {
+app.get('/data', function(req, res) {
 //   console.log('Inside Home Login');
   res.writeHead(200, {
     'Content-Type': 'application/json',
