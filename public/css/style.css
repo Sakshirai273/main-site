@@ -420,8 +420,10 @@ input {
         cursor: pointer;
 }
 .navbar .navbar-nav {
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
+    /* margin-top: 20px; */
+
 }
 
 .navbar .navbar-collapse {

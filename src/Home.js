@@ -7,6 +7,8 @@ import Service from "./components/Service";
 import Testimonial from "./components/Testimonial";
 import ContactForm from "./components/ContactForm";
 // import Login from "./components/Login";
+// import Rating from "./components/Rating"
+// import Blog from "./components/Delhi"
 
 const Home = () => {
   return (
@@ -23,6 +25,8 @@ const Home = () => {
         <Testimonial />
       </div>
       <ContactForm />
+      {/* <Rating/> */}
+      {/* <Blog/> */}
     </div>
   );
 };
