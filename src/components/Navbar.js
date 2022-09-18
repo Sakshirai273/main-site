@@ -25,6 +25,7 @@ const Navbar = () => {
 					<li><Link to="section3" spy={true} smooth={true} offset={-100} duration={900}>Services</Link></li>
 					<li><Link to="section4" spy={true} smooth={true} offset={-100} duration={900}>Contact</Link></li>
 					<li><a href="/weather">weather</a></li>
+					<li> </li>
 				</ul>
 			</div>
 		</div>

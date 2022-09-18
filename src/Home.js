@@ -6,6 +6,7 @@ import ColumnArea from "./components/ColumnArea";
 import Service from "./components/Service";
 import Testimonial from "./components/Testimonial";
 import ContactForm from "./components/ContactForm";
+import Rating from "./RatingCard";
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
                 <Testimonial />
             </div>
             <ContactForm />
+            <Rating/>
         </div>
     );
 }
