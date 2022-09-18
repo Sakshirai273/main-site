@@ -11,13 +11,9 @@ import "./Delhiblog.css";
 const Blog = () => {
     return(
         <div>
-        <weatherNavbar/>
+        <weather/>
         <div className="Delhiblog">
         {/* <weatherNavbar/> */}
-        <BasicExample/>
-        <BasicExample/>
-        <BasicExample/>
-        <BasicExample/>
         <BasicExample/>
         </div>
         
